@@ -1,0 +1,2 @@
+query_history:
+  gcs_bucket: dash-query-history

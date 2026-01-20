@@ -1,0 +1,2 @@
+prod:
+  thrift_uri: thrift://prod-hms:9083

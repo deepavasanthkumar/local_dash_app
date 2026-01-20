@@ -1,1 +1,109 @@
-body { font-family: Arial; background: #f5f7fa; }
+/* ===== Global ===== */
+body {
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  color: #1f2937;
+}
+
+h2 {
+  margin: 0 0 16px 0;
+  font-weight: 600;
+}
+
+/* ===== Header ===== */
+.app-header {
+  background: #0f172a;
+  color: #ffffff;
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-header-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.app-user {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* ===== Tabs ===== */
+.tab-container {
+  background: #ffffff;
+  padding: 16px 24px;
+}
+
+.dash-tabs {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.dash-tab {
+  padding: 10px 18px;
+  font-weight: 500;
+  background: #f9fafb;
+  border: none;
+}
+
+.dash-tab--selected {
+  background: #ffffff;
+  border-bottom: 3px solid #2563eb;
+  color: #2563eb;
+}
+
+/* ===== Cards ===== */
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+/* ===== Inputs ===== */
+textarea, input, .Select-control {
+  border-radius: 6px !important;
+  border: 1px solid #d1d5db !important;
+}
+
+textarea {
+  font-family: monospace;
+}
+
+/* ===== Buttons ===== */
+button {
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  margin-right: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+/* ===== Tables ===== */
+.dash-table-container {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dash-spreadsheet {
+  font-size: 13px;
+}
+
+/* ===== Analytics Highlight ===== */
+.metric-box {
+  background: #eff6ff;
+  border-left: 4px solid #2563eb;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
